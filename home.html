@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial">
+        <title> SRUTHI </title>
+       <style>
+            * {
+                margin: 0;
+                padding: 0;
+
+            }
+    body{
+        background-color:rgb(0,0,33);
+        background:url('background.jpg') no-repeat center center/cover ;
+        height:900px;
+        width:100%;
+        color:white;
+        font-family: 'Poppins',sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        background-color: blue;
+    }
+    nav ul{
+        display:flex;
+        justify-content: center;
+    }
+    nav ul li{
+          list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:black;
+    }
+    nav ul li a:hover{
+        color:lavender;
+        font-size: 1.5 rem;
+
+    }
+      
+    .left{
+        font-size: 2rem;
+        
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:  80px 0;
+    }
+    .firstsection > div{
+        width:30%;
+    }
+    .leftsection{
+        font-size: 2rem;
+        margin: 30px;
+        
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        align-items: normal;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 35px;
+        background: transparent;
+        color:white;
+        border: 2px solid white;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.6s ease-in-out;
+    }
+    .btn:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+        background-color: greenyellow;
+        color: white;
+        font-weight: bold;
+    }
+    .rightsection img{
+        width: 80%;
+    margin:50px 0;
+        
+    }
+    .purple{
+        color: blueviolet;
+    }
+    .black{
+        color:white;
+    }
+    </style>
+ </head>
+ <body>
+    <header>
+        <nav>
+            <div class="left">Roja's Portfolio</div>
+            <div class="right">
+                <ul class="navbar">
+                    <li class="navitem"><a href="home.html" target="_self">HOME</a></li>
+                    <li class="navitem"><a href="about.html" target="_self">ABOUT</a></li>
+                  <li class="navitem"><a href="experience.html" target="_self">EXPERIENCE</a></li>
+                    <li class="navitem"><a href="certificate.html">CERTIFICATES</a></li>
+                    <li  class="navitem"><a href="CONTACT.HTML">CERTIFICATES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection"><span class="black">Hi,My name is</span> <span class="purple">Roja</span>
+                    <div><span class="black">and i am a Frontend Developer</span></div>
+                    <div class="main"></div>
+                    <button class="btn">
+                        Download CV
+                    
+                    </button>
+                    <button class="btn">
+                        Hire me now
+                    </button>
+                    </div>
+
+
+
+                </div>
+                <div class="rightsection">
+                <img src="profile2.jpg" alt="Roja" width="300" height="300" >
+                </div>
+            </section>
+        </main>
+        </body>
